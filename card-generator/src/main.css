@@ -1,0 +1,89 @@
+/* main.css */
+
+/* Fondo general de la aplicación */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para los elementos dentro de un contenedor principal */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+    background-color: #121212;
+  }
+  
+  /* Estilo para los formularios */
+  form {
+    background-color: #1d1d1d;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: 1px solid #424242;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #90caf9;
+    color: #121212;
+    border: none;
+    padding: 12px 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #64b5f6;
+  }
+  
+  /* Estilo para tarjetas */
+  .card {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 16px;
+  }
+  
+  .card img {
+    border-radius: 50%;
+    margin-bottom: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    color: #b0b0b0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  

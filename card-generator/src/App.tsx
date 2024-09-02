@@ -5,7 +5,7 @@ import BusinessCardForm from './components/BusinessCardForm';
 const App: React.FC = () => {
   return (
     <Container>
-      <Box my={4}>
+      <Box my={4} display="flex" flexDirection="column" alignItems="center">
         <BusinessCardForm />
       </Box>
     </Container>
